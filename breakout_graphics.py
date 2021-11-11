@@ -1,9 +1,9 @@
 import pygame
 
 # Graphics on the blocks, ball, player-controlled-pad and the background
-block_img = pygame.image.load("./assets/glowstone.png") 
-ball_img = pygame.image.load("./assets/fire_charge.png")                
-player_img = pygame.image.load("./assets/bouncer.png") 
+brick_img = pygame.image.load("./assets/glowstone.png") 
+ball_img = pygame.image.load("./assets/firecharge.png")                
+paddle_img = pygame.image.load("./assets/bouncer.png") 
 background_img = pygame.image.load("./assets/nether.png") 
 
 # Amount of times ball has hit the bricks 

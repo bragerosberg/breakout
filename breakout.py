@@ -22,7 +22,7 @@ class Block(pygame.sprite.Sprite):
 
         # Assigns the block attributes of custom graphics and location on screen
         self.image = pygame.Surface([64, 64])
-        self.image = block_img
+        self.image = brick_img
         self.rect = self.image.get_rect()
         self.rect.x = x 
         self.rect.y = y 
@@ -102,7 +102,7 @@ class Player(pygame.sprite.Sprite):
         self.height = pad_height
 
         self.image = pygame.Surface([self.width, self.height])
-        self.image = player_img
+        self.image = paddle_img
         self.rect = self.image.get_rect()
         self.screenheight = pygame.display.get_surface().get_height()
         self.screenwidth = pygame.display.get_surface().get_width()
