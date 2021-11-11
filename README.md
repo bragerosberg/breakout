@@ -93,7 +93,7 @@ use of the two files to prevent bugs during value changes.
 </p>
 
 # Final Thoughts
-I find a lot of personal joy through playing this game, and hence the motivation behind this project and reasoning for why I wanted to update this older project of mine. 
+I find a lot of personal joy through playing this game, and hence the motivation behind this project and reasoning for why I wanted to update this older project of mine and post it to GitHub. 
 
 # References
 - [Pygame Sprite Module Introduction](https://www.pygame.org/docs/tut/SpriteIntro.html)
