@@ -134,7 +134,7 @@ pygame.mouse.set_visible(0)
 # Import clock for frames per second configuration
 clock = pygame.time.Clock()
 # Name the game window
-pygame.display.set_caption('Breakout made by "bro041"') 
+pygame.display.set_caption('Breakout made by Brage Røsberg | @bragerosberg') 
 # Make font ready for loss/win scenario
 font = pygame.font.Font("./assets/arcade.ttf", 72) 
 
