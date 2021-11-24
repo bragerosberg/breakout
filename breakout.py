@@ -114,11 +114,11 @@ class Player(pygame.sprite.Sprite):
         """ Update the player position. """
         
         key_pressed = pygame.key.get_pressed()
-        if key_pressed[pygame.K_RIGHT]:
+        if key_pressed[pygame.K_RIGHT] | key_pressed[pygame.K_d]:
             self.rect.x += 13 
             if self.rect.x > self.screenwidth - self.width: 
                 self.rect.x = self.screenwidth - self.width
-        if key_pressed[pygame.K_LEFT]:
+        if key_pressed[pygame.K_LEFT] | key_pressed[pygame.K_a]:
             self.rect.x -= 13 
             if self.rect.x < 0:
                 self.rect.x = 0
